@@ -5,6 +5,7 @@ Font=UbuntuMono Nerd Font,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 UseFontLineChararacters=true
 
 [General]
+Command=/usr/bin/tmux
 InvertSelectionColors=false
 Name=main
 Parent=FALLBACK/
