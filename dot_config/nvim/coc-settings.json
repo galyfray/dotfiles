@@ -1,0 +1,7 @@
+{
+  "diagnostic.checkCurrentLine": true,
+  "[sql]" : {
+    "coc.preferences.formatOnSave" : true
+  },
+  "sql.database" : "postgresql",
+}
