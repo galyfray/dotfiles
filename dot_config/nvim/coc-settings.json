@@ -4,4 +4,6 @@
     "coc.preferences.formatOnSave" : true
   },
   "sql.database" : "postgresql",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "solargraph.diagnostics": true,
 }
