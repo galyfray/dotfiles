@@ -20,4 +20,31 @@ return {
     lazy = false,
   },
   { "github/copilot.vim", lazy = false },
+  {
+    "aruyu/nvim-indentconfig",
+    opts = {
+      -- The global indent settings here.
+      -- This option would set all the filetypes.
+      default = {
+        expandtab = true,
+        size = 2,
+      },
+
+      -- The exclusion indent settings here.
+      -- This option would necessary specific filetypes.
+      exclusions = {
+        {
+          size = 4,
+          filetype = { "java" },
+        },
+      },
+
+      -- The filetype settings by filename here.
+      -- This option would re-set specific filetype by specific filename.
+      ft_preset = {
+        { filename = "*.h", filetype = "c" },
+      },
+    },
+    lazy = false,
+  },
 }
