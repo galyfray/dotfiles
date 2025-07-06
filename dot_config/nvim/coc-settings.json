@@ -6,4 +6,5 @@
   "sql.database" : "postgresql",
   "java.compile.nullAnalysis.mode": "automatic",
   "solargraph.diagnostics": true,
+  "pylsp.plugins.pycodestyle.enabled": false,
 }

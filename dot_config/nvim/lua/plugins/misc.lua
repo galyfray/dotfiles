@@ -35,7 +35,8 @@ return {
       exclusions = {
         {
           size = 4,
-          filetype = { "java" },
+          expandtab = true,
+          filetype = { "java", "python" },
         },
       },
 
