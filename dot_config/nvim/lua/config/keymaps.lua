@@ -10,3 +10,6 @@ local map = vim.keymap.set
 
 -- coc-codellama
 -- map()
+map("n", "<leader>Ca", "<Plug>(coc-codeaction-line)", { desc = "Coc code action" })
+map("x", "<leader>Ca", "<Plug>(coc-codeaction-selected)", { desc = "Coc code action" })
+map("n", "<leader>CA", "<Plug>(coc-codeaction)", { desc = "Coc code action" })

@@ -4,7 +4,10 @@
     "coc-sql": ">=0.12.0",
     "coc-java": ">=1.26.1",
     "coc-solargraph": ">=1.2.4",
-    "@yaegassy/coc-pylsp": ">=0.11.1"
+    "@yaegassy/coc-pylsp": ">=0.11.1",
+    "coc-rome": ">=1.2.0",
+    "coc-tsserver": ">=2.3.1",
+    "coc-pydocstring": ">=0.10.0"
   },
-  "lastUpdate": 1749634742691
+  "lastUpdate": 1760519683183
 }
