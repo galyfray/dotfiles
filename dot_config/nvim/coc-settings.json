@@ -12,4 +12,7 @@
   "solargraph.diagnostics": true,
   "pylsp.plugins.pycodestyle.enabled": false,
   "pydocstring.formatter": "numpy",
+  "pylsp.plugins.pylint.enabled": true,
+  "pylsp.builtin.enableInstallPylspMypy": true,
+  "pylsp.builtin.enableInstallPylsIsort": true,
 }

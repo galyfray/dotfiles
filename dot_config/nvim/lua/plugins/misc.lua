@@ -44,6 +44,7 @@ return {
       -- This option would re-set specific filetype by specific filename.
       ft_preset = {
         { filename = "*.h", filetype = "c" },
+        { filename = "*.twig", filetype = "twig" },
       },
     },
     lazy = false,
